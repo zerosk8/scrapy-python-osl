@@ -8,7 +8,9 @@
 import scrapy
 
 
-class OslpostsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class OslPost(scrapy.Item):
+    nombre = scrapy.Field()
+    autor = scrapy.Field()
+    contenido = scrapy.Field()
+    categorias = scrapy.Field()
+    etiquetas = scrapy.Field()

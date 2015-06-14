@@ -13,5 +13,9 @@ BOT_NAME = 'OslPosts'
 SPIDER_MODULES = ['OslPosts.spiders']
 NEWSPIDER_MODULE = 'OslPosts.spiders'
 
+ITEM_PIPELINES = {
+    'OslPosts.pipelines.OslpostsPipeline': 0,
+}
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'OslPosts (+http://www.yourdomain.com)'

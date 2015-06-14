@@ -7,5 +7,8 @@
 
 
 class OslpostsPipeline(object):
+    #def __init__(self):
+    #    self.file = open('items.xml', 'wb')
+    
     def process_item(self, item, spider):
         return item
