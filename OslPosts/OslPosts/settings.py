@@ -17,5 +17,7 @@ ITEM_PIPELINES = {
     'OslPosts.pipelines.OslpostsPipeline': 0,
 }
 
+FEED_FORMAT = 'xml'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'OslPosts (+http://www.yourdomain.com)'

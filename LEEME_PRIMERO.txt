@@ -1,0 +1,39 @@
+******************************
+Ejecución de la aplicación
+******************************
+
+------------------------------
+Requisitos
+------------------------------
+
+Para ejecutar la aplicación desde un sistema operativo de tipo GNU/Linux es necesario tener instalado:
+- bash
+- git
+- scrapy
+- librerías de python indicadas en el curso
+
+------------------------------
+Ejecución
+------------------------------
+
+1. Clonar el repositorio.
+
+    $ > git clone https://github.com/zerosk8/scrapy-python-osl.git
+
+2. Navegar hasta el directorio del proyecto "Scrapy".
+    
+    $ > cd ./scrapy-python-osl/OslPosts/
+
+3. Ejecutar el proyecto.
+    
+    $ > scrapy crawl osl-ugr
+
+------------------------------
+Resultado de la ejecución
+------------------------------
+
+La ejecución de la aplicación genera dos ficheros con los contenidos de la página inicial
+de la URL "http://osl.ugr.es/"
+
+- "items_no_tags.xml"
+- "items_tags.xml"
